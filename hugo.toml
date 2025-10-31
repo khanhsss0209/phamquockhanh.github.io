@@ -1,0 +1,26 @@
+baseURL = "https://github.com/khanhsss0209"
+languageCode = "vi"
+title = "Blog Lập Trình Mạng"
+theme = "PaperMod"
+
+[params]
+  author = "Phạm Quốc Khánh"
+  description = "Chia sẻ kiến thức về lập trình mạng, Java & JavaScript"
+  defaultTheme = "light"
+  ShowReadingTime = true
+  ShowShareButtons = true
+
+[[menu.main]]
+  name = "🏠 Home"
+  url = "/"
+  weight = 1
+
+[[menu.main]]
+  name = "📝 Blog"
+  url = "/posts/"
+  weight = 2
+
+[[menu.main]]
+  name = "👤 Giới thiệu"
+  url = "/about/"
+  weight = 3
